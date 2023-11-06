@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="login-container">
+        <img class="logo" src="img/logo.png" alt="Logo">
+        <input class="input-field" type="text" placeholder="Username" id="username">
+        <input class="input-field" type="password" placeholder="Password" id="password">
+        <button class="submit-button" onclick="login()">Login</button>
+    </div>
+    <script>
+        function login() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            // Implemente a lógica de login aqui
+            console.log('Username:', username, 'Password:', password);
+        }
+    </script>
+</body>
+</html>
